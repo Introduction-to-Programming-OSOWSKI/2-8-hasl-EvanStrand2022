@@ -1,5 +1,7 @@
 #define function
 def hasL(w):
-    for i in range(0, 2):
-        if (w[i]) == "l":
+    for i in range(0, len(w)):
+        if w[i] == "l":
             return True
+
+hasL("dog")
